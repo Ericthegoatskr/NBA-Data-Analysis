@@ -1,0 +1,15 @@
+# 基本爬蟲所需套件
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# 分析與視覺化所需套件
+pandas==2.1.0
+matplotlib==3.8.0
+numpy==1.25.0
+
+# 應用程式打包工具
+pyinstaller==6.13.0
+
+# GUI介面套件
+# 注意：tkinter通常已包含在Python標準庫中，無需額外安裝
+# 如果使用自訂安裝的Python，請確保已安裝tkinter 

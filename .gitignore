@@ -1,0 +1,61 @@
+# Python 字節編譯文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python 分發/打包
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虛擬環境
+venv/
+ENV/
+env/
+myenv/
+
+# PyCharm 文件
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code 文件
+.vscode/
+.history/
+
+# PyInstaller 生成的文件
+*.manifest
+*.spec
+
+# 系統文件
+.DS_Store
+Thumbs.db
+
+# 數據檔案和結果
+nba_data/*
+nba_data_json/*
+nba_analysis/*
+nba_player_data/*
+nba_player_analysis/*
+nba_player_comparison/*
+!nba_data/.gitkeep
+!nba_data_json/.gitkeep
+!nba_analysis/.gitkeep
+!nba_player_data/.gitkeep
+!nba_player_analysis/.gitkeep
+!nba_player_comparison/.gitkeep 
